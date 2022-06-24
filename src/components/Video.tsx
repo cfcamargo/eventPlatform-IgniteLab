@@ -52,7 +52,7 @@ export function Video( props : VideoProps){
 
   if (!data){
     return (
-      <div className="flex-1 h-full w-full flex justify-center items-center">
+      <div className="flex-1 h-full w-full flex justify-center ">
         <Spinner size={100}/>
       </div>
     )
